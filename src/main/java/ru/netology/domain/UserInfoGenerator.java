@@ -9,7 +9,7 @@ public class UserInfoGenerator {
     public static UserInfo generateUserInfo(String locale) {
         Faker faker = new Faker(new Locale("ru"));
         return new UserInfo(
-                faker.address().cityName(),
+                "Санкт-Петербург",
                 faker.name().fullName(),
                 faker.phoneNumber().phoneNumber()
         );

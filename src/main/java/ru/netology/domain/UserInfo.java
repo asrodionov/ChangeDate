@@ -8,7 +8,7 @@ import lombok.RequiredArgsConstructor;
 @RequiredArgsConstructor
 @AllArgsConstructor
 public class UserInfo {
-    private String city = "Санкт-Петербург";
+    private String city;
     private String name;
     private String phone;
 }
